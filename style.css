@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size:cover;
+    color: white;
+   
+}
+
+/* Contenitore */
+
+.container {
+    width: 1200px;
+    margin: auto;
+    background-color: rgba(2,0,0,0.5);
+    border-radius: 25px;
+    margin-top: 2%;
+    padding: 5%;
+  }
+
+/* Parte Superiore */
+header,nav{
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.logo-lim{
+    width: 20%;
+}
+
+header h1{
+    color: rgb(60, 255, 0);
+}
+
+nav{
+    background-color: rgb(60, 255, 0) ;
+    padding: 1%;
+}
+
+/* Parte centrale */
+main p, main span{
+    font-size: 20px;
+}
+main label{
+    font-size: 30px;
+}
+
+.row-left, .row-right {
+    display: inline-block;
+}
+
+.row-left{
+    width: 15%;
+}
+
+.row-right{
+    width: 84%;
+}
+
+.row-left p::before{
+     content: "\21A6";
+      
+}
+
+/* Stato Batteria */
+
+.caricauno{
+    width: 38%;
+    height: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background-color: orange;
+}
+
+.caricadue{
+    width: 60%;
+    height: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background-color: rgb(60, 255, 0) ;
+}
+
+.caricatre{
+    width: 15%;
+    height: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background-color: tomato;
+}
